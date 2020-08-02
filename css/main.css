@@ -5,7 +5,7 @@
 	padding: 0;
 }
 body {
-	
+
 }
 header {
 	height: 390px;
@@ -16,6 +16,7 @@ header {
 	background: linear-gradient(40deg, rgba(77,106,201,1) 0%, rgba(35,87,116,1) 50%, rgba(48,107,172,1) 100%);
 	vertical-align: middle;
 	display: flex;
+	opacity: 100%;
 }
 .title {
 	color: white;
@@ -61,17 +62,32 @@ a {
 	font-size: 16px;
 	font-family: 'Mukta', sans-serif;
 	opacity: 0.7;
+	text-decoration: none;
+	color: black;
 }
 
+.off-white {
+	color: purple;
+}
+
+.logo {
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 420px)  {
+	.total {
+		display: none;
+	}
+}
 
 /* Preloader styles */
 
 
 .outbody {
 	opacity: 0;
+	display: none;
 }
 body {
-	overflow: hidden;
 	margin: 0;
 	padding: 0;
 }
@@ -273,11 +289,12 @@ body {
 }
 .load {
 	opacity: 1;
+	display: block;
 }
 /* Код аниматора */
 /* main.css */
 .outbody {
 	width: 100%;
-	height: 10000px;
+	height: 100%;
 }
 /* main.css */
