@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	
+}
+header {
+	height: 390px;
+	width: 100%;
+	background: rgb(77,106,201);
+	background: -webkit-linear-gradient(310deg, rgba(77,106,201,1) 0%, rgba(35,87,116,1) 50%, rgba(48,107,172,1) 100%);
+	background: -o-linear-gradient(310deg, rgba(77,106,201,1) 0%, rgba(35,87,116,1) 50%, rgba(48,107,172,1) 100%);
+	background: linear-gradient(40deg, rgba(77,106,201,1) 0%, rgba(35,87,116,1) 50%, rgba(48,107,172,1) 100%);
+	vertical-align: middle;
+	display: flex;
+}
+.title {
+	color: white;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	margin: auto;
+}
+p {
+	opacity: 0.7;
+}
+a:hover {
+	text-decoration: none;
+	color: #B0E0E6;
+}
+a {
+	color: white;
+}
+.btn {
+	display: inline-block;
+    margin-bottom: 1rem;
+    color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    padding: 12px;
+}
+.left {
+	margin-right: 10px;
+}
+.right {
+	margin-left: 10px;	
+}
+.container {
+	padding: 0;
+}
+.total {
+	float: right;
+}
+.disk {
+	font-size: 16px;
+	font-family: 'Mukta', sans-serif;
+	opacity: 0.7;
+}
